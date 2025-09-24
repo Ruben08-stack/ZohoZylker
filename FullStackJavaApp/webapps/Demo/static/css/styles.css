@@ -1,0 +1,67 @@
+/* Reset some default browser styles */
+body,
+h1,
+p,
+form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background color and font styles for the entire page */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Center the game container */
+.container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style headings */
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Style form elements */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Style messages or feedback to the user */
+p {
+    color: #333;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Add more styles as needed for specific game elements */
